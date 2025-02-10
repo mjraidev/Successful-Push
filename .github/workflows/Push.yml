@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-      - uses: actions/checkout@V3
+        uses: actions/checkout@v3
 
       - name: Successful Push
-      - run: echo "Commit Pushed Successfully :)"
+        run: echo "Commit Pushed Successfully :)"
